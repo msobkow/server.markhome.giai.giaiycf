@@ -3,7 +3,7 @@
 /*
  *  MSS Code Factory MssCF 2.13 CLI
  *
- *	Copyright (c) 2016-2026 Mark Stephen Sobkow
+ *	Copyright (c) 2016-2027 Mark Stephen Sobkow
  *	
  *	This file is part of Mark's Code Fractal formerly known as MSS Code Factory.
  *	
@@ -208,7 +208,7 @@ public class CFCli {
 
 	public final static String LogFileName = "ManufactureProject.log";
 	public final static String ProductName = "MSS Code Factory 2.13";
-	public final static String ProductWithVersion = "MSS Code Factory 2.13.42-alpha15-202611010900";
+	public final static String ProductWithVersion = "MSS Code Factory 2.13.42-alpha15-202611160420";
 	private static MSSBamCFPrefs _UserPrefs = null;
 	private static String parsedToolSetNames[] = null;
 	private static ICFLibMessageLog	log = new CFLibConsoleMessageLog();

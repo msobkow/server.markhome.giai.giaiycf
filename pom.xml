@@ -3,7 +3,7 @@
     <modelVersion>4.1.0</modelVersion>
     <groupId>org.msscf</groupId>
     <artifactId>org.msscf.msscf</artifactId>
-    <version>2.13.42-alpha17-202611150800</version>
+    <version>2.13.42-alpha17-202611160420</version>
     <name>org.msscf.msscf</name>
     <description>MSS Code Factory</description>
     <packaging>pom</packaging>
@@ -27,9 +27,6 @@
 		<module>org.msscf.msscf.v2_13.cfbamcust.CFBamXmlLoader</module>
 		<module>org.msscf.msscf.v2_13.cfbamcust.MSSBamCF</module>
 		<module>org.msscf.msscf.v2_13.CFCli</module>
-		<module>org.msscf.msscf.v2_13.cfkbase</module>
-		<!--module>org.msscf.msscf.v2_13.cfmodel</module-->
-		<!--module>org.msscf.msscf.v2_13-installer</module-->
 	</modules>
 
     <properties>

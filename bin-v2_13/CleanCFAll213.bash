@@ -1,4 +1,5 @@
 #!/bin/bash
-cd $MSSCF_HOME/v2_13-maven/org.msscf.msscf
+export SaveDir=`pwd`
+cd $GIAI_HOME/server.markhome.giai.giaiycf/
 mvn -U clean
-cd $MSSCF_HOME
+cd $SaveDir
