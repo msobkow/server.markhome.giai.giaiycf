@@ -3,7 +3,7 @@
     <modelVersion>4.1.0</modelVersion>
     <groupId>org.msscf</groupId>
     <artifactId>org.msscf.msscf</artifactId>
-    <version>2.13.42-alpha17-202611160420</version>
+    <version>2.13.42-alpha18-202611170000</version>
     <name>org.msscf.msscf</name>
     <description>MSS Code Factory</description>
     <packaging>pom</packaging>

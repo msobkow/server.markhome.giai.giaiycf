@@ -208,7 +208,7 @@ public class CFCli {
 
 	public final static String LogFileName = "ManufactureProject.log";
 	public final static String ProductName = "MSS Code Factory 2.13";
-	public final static String ProductWithVersion = "MSS Code Factory 2.13.42-alpha15-202611160420";
+	public final static String ProductWithVersion = "MSS Code Factory 2.13.42-alpha18-202611170000";
 	private static MSSBamCFPrefs _UserPrefs = null;
 	private static String parsedToolSetNames[] = null;
 	private static ICFLibMessageLog	log = new CFLibConsoleMessageLog();
