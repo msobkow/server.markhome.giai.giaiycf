@@ -77,19 +77,19 @@ public class CFBamSaxLoader
 {
 
 	// The namespace URI of the supported schema
-	public final static String	SCHEMA_XMLNS = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfbam-structured.xsd";
+	public final static String	SCHEMA_XMLNS = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfbam-structured.xsd";
 
 	// The source for loading the supported schema
-	public final static String	SCHEMA_URI = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfbam-structured.xsd";
-	public final static String	SCHEMA_ROOT_URI = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfbam-structured.xsd";
+	public final static String	SCHEMA_URI = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfbam-structured.xsd";
+	public final static String	SCHEMA_ROOT_URI = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfbam-structured.xsd";
 
-	public final static String	CFSEC_XMLNS = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfsec-structured.xsd";
-	public final static String	CFSEC_URI = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfsec-structured.xsd";
-	public final static String	CFSEC_ROOT_URI = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfsec-structured.xsd";
+	public final static String	CFSEC_XMLNS = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfsec-structured.xsd";
+	public final static String	CFSEC_URI = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfsec-structured.xsd";
+	public final static String	CFSEC_ROOT_URI = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfsec-structured.xsd";
 
-	public final static String	CFINT_XMLNS = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfint-structured.xsd";
-	public final static String	CFINT_URI = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfint-structured.xsd";
-	public final static String	CFINT_ROOT_URI = "http://mcf.markhome.server/msscf/2.0.13/xsd/cfint-structured.xsd";
+	public final static String	CFINT_XMLNS = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfint-structured.xsd";
+	public final static String	CFINT_URI = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfint-structured.xsd";
+	public final static String	CFINT_ROOT_URI = "http://giai.markhome.server/giai-ycf/msscf/2.0.13/xsd/cfint-structured.xsd";
 
 	// The schema instance to load in to
 
