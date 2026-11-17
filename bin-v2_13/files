@@ -1,0 +1,6 @@
+mv ManufactureAll31Java.bash ManufactureAll11.bash
+mv ManufactureBusModel31Java.bash ManufactureBusModel11.bash
+mv ManufactureCore31Java.bash ManufactureCore11.bash
+mv ManufactureDbTest31Java.bash ManufactureDbTest11.bash
+mv ManufactureInterNet31Java.bash ManufactureInterNet11.bash
+mv ManufactureSecure31Java.bash ManufactureSecure11.bash

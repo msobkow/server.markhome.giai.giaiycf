@@ -7,5 +7,5 @@ if [ "$LOG4J2_CONF" != "" ]; then
 else
 	export JAVA_LOG4J=""
 fi
-"$JAVA" $JAVA_LOG4J -ea -Xms1023M $ruleargs -jar ./org.msscf.msscf.v2_13.CFCli-2.13.42-alpha18-202611170000-spring-boot.jar $cmdargs
+"$JAVA" $JAVA_LOG4J -ea -Xms1023M $ruleargs -jar ./org.msscf.msscf.v2_13.CFCli-2.13.42-alpha18-202611170420-spring-boot.jar $cmdargs
 cd $SaveDir
