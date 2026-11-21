@@ -208,7 +208,7 @@ public class CFCli {
 
 	public final static String LogFileName = "ManufactureProject.log";
 	public final static String ProductName = "Yorkton Code Fractal 2.13";
-	public final static String ProductWithVersion = "Yorkton Code Fractal 2.13.42-alpha18-202611170420";
+	public final static String ProductWithVersion = "Yorkton Code Fractal 2.13.42-alpha19-202611210000";
 	private static MSSBamCFPrefs _UserPrefs = null;
 	private static String parsedToolSetNames[] = null;
 	private static ICFLibMessageLog	log = new CFLibConsoleMessageLog();
