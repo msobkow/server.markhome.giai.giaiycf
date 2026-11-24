@@ -4,20 +4,20 @@
   <parent>
     <groupId>org.msscf.msscf</groupId>
     <artifactId>org.msscf.msscf.v2_13</artifactId>
-    <version>2.13.42-alpha19-202611210000</version>
+    <version>2.13.42-alpha20-202611240000</version>
   </parent>
 
   <groupId>org.msscf.msscf.v2_13</groupId>
   <artifactId>org.msscf.msscf.v2_13.CFCli</artifactId>
-  <version>2.13.42-alpha19-202611210000</version>
+  <version>2.13.42-alpha20-202611240000</version>
   <name>org.msscf.msscf.v2_13.CFCli</name>
   <description>MSS Code Factory 2.13 Command Line Interface</description>
   <url>https://msscode.com/msscf/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
     <spring.version>3.5.3</spring.version>
     <orm.version>6.2.8</orm.version>
     <xerces.version>2.12.2</xerces.version>
@@ -25,6 +25,10 @@
 	<log4j.api.version>2.25.5</log4j.api.version>
 	<log4j.core.version>2.25.4</log4j.core.version>
 	<log4j.spring.version>2.26.1</log4j.spring.version>
+	<maven.resources.plugin.version>4.0.0-beta-2</maven.resources.plugin.version>
+	<maven.compiler.plugin.version>4.0.0-beta-5</maven.compiler.plugin.version>
+	<maven.jar.plugin.version>4.0.0-beta-2</maven.jar.plugin.version>
+	<maven.install.plugin.version>4.0.0-beta-3</maven.install.plugin.version>
   </properties>
 
   <dependencies>
@@ -101,47 +105,47 @@
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cflib.CFLib</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfcore</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfbam</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfsec</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfint</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfbam.CFBamMssCF</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfbamcust.MSSBamCF</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfbamcust.CFBamXmlLoader</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
     <dependency>
       <groupId>org.msscf.msscf.v2_13</groupId>
       <artifactId>org.msscf.msscf.v2_13.cfbam.CFBamRam</artifactId>
-      <version>2.13.42-alpha19-202611210000</version>
+      <version>2.13.42-alpha20-202611240000</version>
     </dependency>
   </dependencies>
 

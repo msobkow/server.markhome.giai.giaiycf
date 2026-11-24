@@ -3,7 +3,7 @@
     <modelVersion>4.1.0</modelVersion>
     <groupId>org.msscf</groupId>
     <artifactId>org.msscf.msscf</artifactId>
-    <version>2.13.42-alpha19-202611210000</version>
+    <version>2.13.42-alpha20-202611240000</version>
     <name>org.msscf.msscf</name>
     <description>MSS Code Factory</description>
     <packaging>pom</packaging>
@@ -28,10 +28,38 @@
 		<module>org.msscf.msscf.v2_13.cfbamcust.MSSBamCF</module>
 		<module>org.msscf.msscf.v2_13.CFCli</module>
 	</modules>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.resources.plugin.version>4.0.0-beta-2</maven.resources.plugin.version>
+		<maven.compiler.plugin.version>4.0.0-beta-5</maven.compiler.plugin.version>
+		<maven.jar.plugin.version>4.0.0-beta-2</maven.jar.plugin.version>
+		<maven.install.plugin.version>4.0.0-beta-3</maven.install.plugin.version>
     </properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${commons.compiler.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>${maven.install.plugin.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven.jar.plugin.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${maven.resources.plugin.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<distributionManagement>
 		<repository>
@@ -47,6 +75,35 @@
 	</distributionManagement>
 
 	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${commons.compiler.version}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>${maven.install.plugin.version}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>${maven.jar.plugin.version}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${maven.resources.plugin.version}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>3.1.4</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 		<extensions>
 			<extension>
 				<groupId>org.apache.maven.wagon</groupId>

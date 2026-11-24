@@ -190,20 +190,20 @@ extends CFGenKbGenFileObj
 		String dirSep = File.separator;
 
 		String baseWorkDir;
-		if ((sourceBundle != null) && (sourceBundle.length() > 0)) {
-			baseWorkDir = sourceBundle + dirSep + projectDirName;
-		}
-		else {
-			baseWorkDir = "src" + dirSep + projectDirName;
-		}
+//		if ((sourceBundle != null) && (sourceBundle.length() > 0)) {
+//			baseWorkDir = sourceBundle + dirSep + projectDirName;
+//		}
+//		else {
+//			baseWorkDir = "src" + dirSep + projectDirName;
+//		}
 
-		String baseGenDir;
-		if( rootGenDir.endsWith( dirSep ) || rootGenDir.endsWith("/") || rootGenDir.endsWith("\\") ) {
-			baseGenDir = rootGenDir + baseWorkDir;
-		}
-		else {
-			baseGenDir = rootGenDir + dirSep + baseWorkDir;
-		}
+		String baseGenDir = rootGenDir;
+//		if( rootGenDir.endsWith( dirSep ) || rootGenDir.endsWith("/") || rootGenDir.endsWith("\\") ) {
+//			baseGenDir = rootGenDir + baseWorkDir;
+//		}
+//		else {
+//			baseGenDir = rootGenDir + dirSep + baseWorkDir;
+//		}
 
 		String srcFileDir;
 		String fullPackage;
@@ -264,7 +264,7 @@ extends CFGenKbGenFileObj
 				moduleName,
 				fullPackage,
 				baseGenDir,
-				baseWorkDir,
+				"", //baseWorkDir,
 				srcFileDir,
 				srcFileName,
 				generateOnce );

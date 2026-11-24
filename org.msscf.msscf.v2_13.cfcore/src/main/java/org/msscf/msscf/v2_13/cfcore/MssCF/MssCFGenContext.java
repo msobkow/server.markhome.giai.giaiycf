@@ -716,9 +716,9 @@ extends CFGenKbGenItemEditObj
 			throw new RuntimeException( S_ProcName + "baseGenDir is null or empty" );
 		}
 
-		if( ( baseWorkDir == null ) || ( baseWorkDir.length() == 0 ) ) {
-			throw new RuntimeException( S_ProcName + "baseWorkDir is null or empty" );
-		}
+//		if( ( baseWorkDir == null ) || ( baseWorkDir.length() == 0 ) ) {
+//			throw new RuntimeException( S_ProcName + "baseWorkDir is null or empty" );
+//		}
 
 		if( ( fileName == null ) || ( fileName.length() == 0 ) ) {
 			throw new RuntimeException( S_ProcName + "fileName is null or empty" );
@@ -762,12 +762,12 @@ extends CFGenKbGenItemEditObj
 		String outputWorkName;
 		fileSep = File.separator;
 		if (fileSep.length() == 1) {
-			outputWorkName = ( baseWorkDir + fileSep + srcFileDir + fileSep + outputName ).replace('/', fileSep.charAt(0));
+			outputWorkName = ( /* baseWorkDir + fileSep + */ srcFileDir + fileSep + outputName ).replace('/', fileSep.charAt(0));
 			outputFullName = ( outputDirName + fileSep + outputName ).replace('/', fileSep.charAt(0));
 			sysDirName = outputDirName.replace( '/', fileSep.charAt(0) );
 		}
 		else {
-			outputWorkName = baseWorkDir + fileSep + srcFileDir + fileSep + outputName;
+			outputWorkName = /* baseWorkDir + fileSep + */ srcFileDir + fileSep + outputName;
 			outputFullName = outputDirName + fileSep + outputName;
 			sysDirName = outputDirName;
 		}
